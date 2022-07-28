@@ -1,5 +1,8 @@
 <template>
-  <div>黑马头条</div>
+  <div>
+    <div>黑马头条</div>
+    <div>黑马头条</div>
+  </div>
 </template>
 
 <script>
