@@ -33,10 +33,6 @@ const routes = [
         component: () => import('@/views/My')
       }
     ]
-  },
-  {
-    path: '/profile',
-    component: () => import('@/views/profile')
   }
 ]
 

@@ -20,7 +20,7 @@ export default new Vuex.Store({
   getters: {},
   mutations: {
     // payload 形参  接受外界调用时传递过来的值
-    SET_NUM(state, payload) {
+    SET_TOKEN(state, payload) {
       // 将token存入vuex
       state.tokenObj = payload
       // token存入本地存储中

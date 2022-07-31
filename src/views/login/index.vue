@@ -91,8 +91,8 @@ export default {
           data: { data: token }
         } = await login(this.mobile, this.code)
         // console.log(res)
-        this.$store.commit('SET_NUM', token)
-        this.$router.push('/profile')
+        this.$store.commit('SET_TOKEN', token)
+        this.$router.push('/my')
         this.$toast.success('登录成功')
       } catch (error) {
         // 细分失败
