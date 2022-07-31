@@ -1,12 +1,10 @@
 <template>
-  <div>
-    <router-view></router-view>
-  </div>
+  <div>问答</div>
 </template>
 
 <script>
 export default {
-  name: 'MyApp'
+  name: 'MyQA'
 }
 </script>
 

@@ -1,12 +1,10 @@
 <template>
-  <div>
-    <router-view></router-view>
-  </div>
+  <div>视频</div>
 </template>
 
 <script>
 export default {
-  name: 'MyApp'
+  name: 'MyVideo'
 }
 </script>
 
