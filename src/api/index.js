@@ -3,5 +3,9 @@
 // 不包含默认导出的东西
 export * from './user'
 
+export * from './channel'
+
+export * from './news'
+
 // 引入默认导出的东西，
 // export { defalut as getUser } from './user'

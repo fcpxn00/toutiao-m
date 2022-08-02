@@ -15,6 +15,7 @@ Vue.use(Vant)
 
 Vue.config.productionTip = false
 
+// $store 等于 store
 new Vue({
   router,
   store,
