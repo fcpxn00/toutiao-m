@@ -55,3 +55,22 @@ export const uploadAvatar = (file) => {
     data: fm
   })
 }
+
+/**
+ * 编辑用户个人信息
+ * @param {*} name 昵称
+ * @param {*} gender 性别
+ * @param {*} birthday 生日
+ * @returns Promise
+ */
+export const editUserInfoApi = (name, gender, birthday) => {
+  return request({
+    url: '/v1_0/user/profile',
+    method: 'PATCH',
+    data: {
+      name,
+      gender,
+      birthday
+    }
+  })
+}
